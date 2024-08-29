@@ -1,0 +1,45 @@
+
+/***** Start banner Section *****/
+
+.banner {
+    height: 30vh;
+    width: 100%;
+    /* urlma ../ is important */
+    background-image: url('../images/breadcromb.jpg'); 
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    margin-bottom: 8rem;
+  }
+  
+  .banner .container {
+    height: 100%;
+  }
+  
+  .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  
+  }
+  
+  .banner-content .banner-heading {
+    font-size: 5rem;
+    color: var(--font-color);
+    font-weight: 300;
+  }
+  
+  .banner-title h2 {
+    font-size: 2rem;
+    color: var(--font-color);
+  }
+  
+  .banner-title span {
+    font-size: 2rem;
+    color: var(--theme-primary-color);
+  }
+  
+  /***** End banner Section *****/
+  

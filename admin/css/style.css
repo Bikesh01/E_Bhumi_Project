@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    /* 62.5%=10px */
+    font-size: 62.5%;
+    letter-spacing: 0.1rem;
+
+}
+
+body {
+    background-color: var(--theme-background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+:root {
+    --theme-background-color: #F9FAFC;
+    --font-color: #f7f7f8;
+    --sidebar-color: #232F47;
+    --green-icon-color: #0FB387;
+    --blue-icon-color: #3B91F9;
+    --darkgreen-icn-color: #008694;
+
+}
+
+
+
+.navbar {
+    background-color: white;
+    /* position: fixed; */
+
+
+}
+
+.navbar .dropdown img {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.flip-horizontal {
+    transform: scaleX(-1);
+    display: inline-block;
+}
+
+
+
+.navbar .btn-primary {
+    width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.btn-primary {
+    padding: 16px;
+    font-size: 1.3rem;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+
+.btn-primary {
+    width: 200px;
+}
+
+/***** Start second nav bar Section *****/
+.menu-navbar {
+    font-size: 1.6rem;
+
+}
+
+.menu-navbar .navbar {
+
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menu-navbar .navbar-nav {
+    margin-left: 40px;
+}
+
+.menu-navbar ul {
+
+    gap: 20%;
+}
+
+.menu-navbar .dropdown-item {
+    font-size: 1.4rem;
+}
+
+/***** End second nav bar Section *****/
+
+
+
+
+
+/***** Start main Section *****/
+.main {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    height: 77vh;
+
+}
+
+
+.main .heading-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+
+.main .heading-sub-title {
+    font-size: 1.6rem;
+    color: grey;
+    margin: 20px 0 20px 0;
+}
+
+/***** End main Section *****/
+
+/***** Start admin Section *****/
+.tile {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+
+.main .col-md-3 {
+    padding: 7.5px 7.5px;
+}
+
+.main span i {
+    font-size: 1.6rem;
+    color: var(--theme-background-color);
+    padding: 10px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.main .register-tile-icon i {
+    background-color: var(--blue-icon-color);
+}
+
+.main .agent-tile-icon i {
+    background-color: var(--green-icon-color);
+}
+
+.main .property-tile-icon i {
+    background-color: var(--darkgreen-icn-color);
+}
+
+.main .sale-tile-icon i {
+    background-color: var(--blue-icon-color);
+}
+
+.main .rent-tile-icon i {
+    background-color: #F5DD61;
+}
+
+.main .appartment-tile-icon i {
+    background-color: #FF6969;
+}
+
+.main .house-tile-icon i {
+    background-color: #363062;
+}
+
+.main .land-tile-icon i {
+    background-color: #F99417;
+}
+
+.main .flat-tile-icon i {
+    background-color: #B15EFF;
+}
+
+.main span {
+    display: block;
+}
+
+.main .tile-number {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.main .tile-title {
+    font-size: 1.2rem;
+    color: grey;
+    font-size: 200;
+}
+
+/***** End admin Section *****/
+
+
+/***** Start admin list Section *****/
+
+.main .card-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--sidebar-color);
+    width: 100%;
+}
+
+.main .card-filter {
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main .table {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.main .show-entries span {
+    display: inline;
+}
+
+.main .show-entries {
+    font-size: 1.6rem;
+}
+
+.main label,
+.main input {
+    font-size: 1.6rem;
+}
+
+.main th {
+    background-color: #f9fafa;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.main td {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.main .showing-enteries {
+    font-size: 1.6rem;
+}
+
+.main .showing-enteries button {
+    border: none;
+    padding: 6px;
+}
+
+/***** End admin list Section *****/
+
+
+
+/***** Start user list Section *****/
+.main table td img {
+    width: 45px;
+    height: 45px;
+}
+
+/***** End user list Section *****/
+
+
+
+
+/***** Start property view Section *****/
+.collapsible-content {
+    display: none;
+}
+
+.collapsible-content.active {
+    display: table-row;
+}
+
+.collapsible-row button {
+    border: none;
+    padding: 5px;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: #f9bd3b;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.collapsible-row button:checked {
+    background-color: #0FB387;
+}
+
+/***** Start colapsible-content Section *****/
+.collapsible-content label {
+    font-weight: 500;
+    margin: 15px 0;
+
+}
+
+.collapsible-content li {
+    list-style: none;
+    border-bottom: 1px solid grey;
+
+}
+
+.collapsible-content img {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px !important;
+    height: 100px !important;
+}
+
+/***** End colapsible-content Section *****/
+
+
+
+
+/***** End property view Section *****/
+
+
+
+/***** Start Add property Section *****/
+.summit-section {
+    background-color: white;
+}
+
+.summit-section .heading {
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+
+}
+
+.summit-section select {
+    height: 50px;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.summit-section input {
+    height: 50px;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.summit-section input::placeholder {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.summit-section textarea {
+    font-size: 1.4rem;
+    padding: 1rem;
+
+}
+
+/***** End Add property Section *****/
+
+
+
+@media (max-width: 754px) {
+
+    html,
+    body {
+        /* font-size: 10px; */
+        /* to */
+        /* font-size: 62.5%; */
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    html,
+    body {
+        /* font-size: 10px; */
+        /* to */
+        /* font-size: 62.5%; */
+        font-size: 9px;
+    }
+}

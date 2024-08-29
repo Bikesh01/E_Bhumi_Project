@@ -1,0 +1,16 @@
+
+:root{
+    --theme-background-color:#F9FAFC;
+    --font-color: #f7f7f8;
+    --sidebar-color:#232F47;
+    --green-icon-color:#0FB387;
+    --blue-icon-color:#3B91F9;
+    --darkgreen-icn-color:#008694;
+
+}
+
+.bg-primary{
+    padding: 25px 10px;
+    background-color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

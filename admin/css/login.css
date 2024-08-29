@@ -1,0 +1,84 @@
+.login-section {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--theme-background-color);
+}
+
+.box-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-box {
+    padding: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.box-box h1 {
+    font-size: 4rem;
+}
+
+.box-box h3 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+.box-box .form-group {
+    margin-bottom: 40px;
+}
+
+.box-box input {
+    width: 350px;
+    font-size: 1.6rem;
+    height: 50px;
+}
+
+.box-box input::placeholder {
+    padding: 20px;
+}
+
+
+.box-box .dont-have {
+    margin-top: 40px;
+    font-size: 1.6rem;
+
+}
+
+.box-box button {
+    font-size: 2rem;
+}
+
+
+/***** Start registration Section *****/
+
+
+.box-box input[type="radio"] {
+    width: 16px;
+    height: 16px;
+}
+
+.box-box label {
+    font-size: 1.6rem;
+}
+
+/***** End registration Section *****/
+
+.country-code input{
+    width: 50px;
+    border: none;
+} 
+.country-code input:hover{
+border: none;
+}

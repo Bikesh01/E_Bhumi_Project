@@ -1,0 +1,54 @@
+.contact-section h3{
+    color: var(--theme-dark-color);
+    
+}
+.contact-section .bg-account{
+    padding: 40px;
+
+    border-radius: 10%;
+    background-color: var(--theme-dark-color);
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+
+.contact-section img{
+    width: 90%;
+    height: 90% ;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+}
+.contact-section button{
+    width: 180px;
+}
+.contact-section .myaccount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-section .mydetail{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-section label{
+    font-size: 2rem;
+    color: var(--font-color);
+}
+
+
+@media (min-width<=768px) and (max-width<=992px) {
+    .contact-section img{
+        width: 500px;
+        height: 500px;
+    }
+}

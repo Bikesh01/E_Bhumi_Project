@@ -1,0 +1,62 @@
+.login-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-wrap {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+ 
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.box-box {
+  padding: 20px;
+}
+
+.box-box h1 {
+  color: var(--theme-dark-color);
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.box-box .form-group {
+  margin-bottom: 10px;
+}
+
+.box-box input {
+  width: 350px;
+  font-size: 1.6rem;
+  height: 50px;
+}
+
+.box-box input::placeholder {
+  padding: 20px;
+}
+
+.box-box .dont-have {
+  margin-top: 40px;
+  font-size: 1.6rem;
+}
+
+/***** Start registration Section *****/
+.box-box input[type="radio"] {
+  width: 16px;
+  height: 16px;
+}
+
+.box-box label {
+  font-size: 1.6rem;
+}
+
+/***** End registration Section *****/
+.login-section button:hover {
+  background-color: var(--theme-primary-hover-color);
+}
+
+

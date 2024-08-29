@@ -1,0 +1,92 @@
+
+
+
+.bg-contact{
+    background-color: var(--theme-primary-color);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+  .contact-section .fa-solid{
+    font-size: 1.7rem;
+    border: 1px dashed var(--font-color);
+    color: var(--font-color);
+    
+  }
+  .contact-section .fa-solid:hover{
+    background-color: var(--font-color);
+    color: var(--theme-primary-color)!important;
+  }
+  .contact-section h3{
+   font-size: 5rem;
+    color: var(--font-color);
+    font-weight: 300;
+  }
+  .contact-section ul h5{
+    font-size: 2rem;
+    color: var(--font-color);
+  }
+  .contact-section ul span{
+    font-size: 1.6rem;
+    color: var(--font-color);
+  }
+
+  .contact-section h3{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .contact-section ul li{
+    margin-left: 3rem;
+    margin-bottom: 6rem;
+  }
+  .contact-section ul span{
+    margin-left: 4rem;
+  }
+
+
+  /***** Start get in touch Section *****/
+
+  .contact-section h2{
+    font-size: 5rem;
+    color: var(--theme-primary-color);
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+
+  }
+  .contact-section input{
+    font-size: 1.6rem;
+    height: 50px;
+  }
+  .contact-section input::placeholder{
+    padding: 20px;
+    
+
+  }
+  .contact-section form textarea{
+    height: auto;
+    font-size: 1.6rem;
+  }
+  .contact-section textarea::placeholder{
+    padding-left: 0.7rem;
+
+  }
+  
+
+  .contact-section .form-group{
+    margin-bottom: 40px;
+  }
+
+  .contact-section h2{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+.btn-primary{
+  --bs-btn-hover-bg: var(--theme-primary-hover-color);
+}
+  /***** End get in touch Section *****/

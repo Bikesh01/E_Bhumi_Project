@@ -1,0 +1,181 @@
+.property-detail-section .carousel-control-prev-icon,.carousel-control-next-icon{
+    color: var(--font-color);
+    padding: 20px;
+    background-color: var(--theme-dark-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.9s linear;
+    -webkit-transition: all 0.9s linear;
+    -moz-transition: all 0.9s linear;
+    -ms-transition: all 0.9s linear;
+    -o-transition: all 0.9s linear;
+}
+
+.carousel-control-next-icon:hover,.carousel-control-prev-icon:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.left-side{
+  padding: 45px;
+}
+
+ /* Custom styling for custom buttons */
+ .prev-button,
+ .next-button {
+   font-size: 24px;
+   color:var(--theme-dark-color);
+   background-color: rgba(255, 255, 255, 10);
+   border: none;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   z-index: 1;
+ }
+
+ .prev-button {
+   left: 10px;
+   /* Position on the left side */
+ }
+
+ .next-button {
+   right: 10px;
+   /* Position on the right side */
+ }   
+ @media (max-width: 670px) {
+  .prev-button, .next-button {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    /* Adjust padding for smaller buttons */
+  }
+}
+
+@media (max-width<=721px) {
+  .prev-button, .next-button{
+    width: 10px;
+    height: 10px;
+    font-size: 16px;
+  }
+}
+ 
+
+.carousel img{
+    border-radius: 1%;
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    -o-border-radius: 1%;
+}
+.property-detail-section span,.property-detail-section .price{
+    font-weight: 400;
+
+}
+
+.left-side .status {
+    color: var(--font-color);
+padding: 10px;
+background-color: var(--theme-primary-color)!important;
+font-size: 2rem;
+
+}
+.left-side .price{
+    font-size: 2.5rem;
+    color: var(--theme-primary-color);
+}
+
+.left-side .title{
+    color: var(--theme-dark-color);
+    font-size: 2.5rem;
+}
+.left-side .price-n ,.left-side {
+    color: var(--theme-dark-color);
+    font-size: 2rem;
+}
+
+.left-side .property-feature{
+    padding: 20px;
+    background-color: var(--theme-grey-color);
+}
+
+.left-side .property-feature .land,.left-side .property-feature .road, .left-side .property-feature .face ,.left-side .property-feature .view{
+    font-size: 1.6rem;
+}
+
+.left-side .description-heading,.left-side .feature{
+color: var(--theme-dark-color);
+font-size: 2.5rem;
+
+}
+
+.left-side .description{
+    color: var(--theme-dark-color);
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+
+.left-side .feature-title{
+    font-size: 1.6rem;
+    margin-bottom: 2.5rem;
+    list-style-type: disc;
+    margin-left: 20px
+}
+
+.right-side{
+    padding: 20px;
+}
+
+.right-side h1{
+    font-size: 3rem;
+    color: var(--theme-dark-color);
+}
+.right-side img{
+    width: 200px;
+    height: 200px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    .right-side img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.right-side .agent-detail h2{ 
+ color: var(--theme-dark-color);
+ font-size: 2rem;
+ font-weight: 400;
+ margin-left: 8px;
+}
+.right-side .agent-detail .name{
+    color: var(--theme-primary-color);
+}
+
+.property-detail-section input{
+    height: 40px;
+    font-size: 1.5rem;
+
+
+}
+
+.property-detail-section textarea::placeholder{
+font-size: 1.4rem;
+}
+
+.property-detail-section .send-message button{
+    
+    width: 180px;
+}
+
+.property-detail-section .send-message button:hover{
+ background-color: var(--theme-primary-hover-color)!important;
+}
